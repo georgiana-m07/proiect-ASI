@@ -1,101 +1,104 @@
-# Dental Clinic Information System Analysis and Design
+# Dental Clinic Information System - ASI Project
 
-## Table of Contents
-1. [General Organization Overview](#general-organization-overview)
-2. [Organizational Structure Analysis](#organizational-structure-analysis)
-3. [Existing Information System Investigation](#existing-information-system-investigation)
-4. [Business Process Modeling](#business-process-modeling)
-5. [UML Modeling](#uml-modeling)
+This project was developed for the "Informational SYstem Analysis / Analiza sistemelor informaționale" (ASI) course. It focuses on analyzing and designing an information system for tracking dental procedures and managing clinic operations. The project simulates a real-world system to manage patient appointments, dental treatments, materials procurement, and external collaborations with specialists.
 
-## General Organization Overview
-The project analyzes the information system for tracking work at a dental clinic.
+## Project Overview
 
-**Organization Details:**
-- **Name:** DENTAL MEDICINE OFFICE DR. IZVERNARI COSMINA
-- **Founded:** March 13, 2017
-- **Location:** Str. Cucului 6, Ground Floor, Apt. SAD 1, Giroc, Timis
-- **Legal Form:** Authorized Individual (PFA)
-- **Services:** General and specialized dental consultations, dental treatments, invasive dental interventions, hygiene and prevention, dental whitening procedures
+The system was designed for **Cabinet Medical de Medicină Dentară Dr. Izvernari Cosmina**, a dental clinic. It covers both internal operations (scheduling, procedures) and external collaborations (specialists, suppliers). The project employs multiple methodologies such as BPMN for business process modeling and UML for system structure.
 
-## Organizational Structure Analysis
+### Key Features of the System:
+- **Patient Management**: Tracking patient appointments and medical records.
+- **Material Procurement**: Ordering and receiving medical supplies needed for treatments.
+- **Collaboration with Specialists**: Referring patients to external specialists and receiving feedback from them.
+- **Tracking Dental Work**: Documenting all procedures performed on patients and maintaining a history of dental treatments.
 
-### Organization Chart
-*[Insert Screenshot 1: Organization chart from your document]*
+## Project Structure and Components:
 
-This section presents the organizational hierarchy and relationships within the dental clinic, including:
-- Main dentist
-- Tenant dentist
-- External collaborators (accounting, dental technician, cleaning services)
-- Specialized service providers (orthodontics, radiology, maxillofacial surgery)
+### 1. Organization Overview
+The system is built for a real-world dental clinic, and the project includes a thorough analysis of the clinic’s operations:
+- **Clinic Name**: Cabinet Medical de Medicină Dentară Dr. Izvernari Cosmina
+- **Established**: March 13, 2017
+- **Services**: General and specialized dental consultations, invasive dental treatments, hygiene, teeth whitening, and prevention procedures.
+- **Legal Form**: Authorized Physical Person (PFA)
+- **External Collaborations**: 
+- **Suppliers**: Polident, DentStore, Dentotal
+- **Specialists**: Radiologists, dental surgeons, orthodontists, and endodontists
 
-### Organizational Relations Analysis
-Details the relationships and responsibilities between different roles and external service providers, highlighting:
-- Main dentist's responsibilities
-- External service collaborations
-- Current operational challenges
-- Recommendations for improvement
+### 2. Organizational Structure and Flowchart
 
-## Existing Information System Investigation
+The dental clinic operates with a minimalist structure:
+- **Stomatologist**: The primary practitioner who manages all patient appointments and treatments.
+- **External Collaborations**: Most specialized services (e.g., dental surgeries, radiographies) are outsourced. The clinic collaborates with external specialists and suppliers.
+- **Challenges**: Lack of administrative staff, leading to inefficiencies in managing external collaborations and appointments.
 
-### Document Inventory
-*[Insert Screenshot 2: Table of documents if available]*
+### 3. Business Process Modeling (BPMN)
 
-Lists all important documents used in the clinic's operations, including:
-- Patient registration forms
-- Medical records
-- Treatment plans
-- Prescriptions
-- Supply orders
-- Invoices
-- Specialist referrals
+A **BPMN Diagram** was created to represent the business processes within the clinic, from patient registration to treatment execution. The diagram includes key processes such as:
+- **Patient Scheduling**: The system manages scheduling based on patient needs and availability.
+- **Materials Procurement**: The clinic places orders for medical supplies and tracks their delivery.
+- **Specialist Referrals**: The system handles patient referrals to external specialists, such as orthodontists and radiologists, and logs the feedback and results received from these collaborators.
+  
+*The BPMN diagram clearly illustrates how these processes interact and flow through the clinic's system.*
 
-### System Flowchart
-*[Insert Screenshot 3: System flowchart from your document]*
+### 4. Existing Information System Analysis
 
-Illustrates the flow of information and documents through the clinic's operations.
+The analysis phase focused on understanding the existing processes within the clinic:
+- **Document Inventory**: This lists all documents used in the clinic, such as appointment registers, dental procedure forms, invoices, and medical records.
+- **System Flowchart**: A flowchart was developed to map out how documents and data move through the clinic’s system, including information coming from external collaborators (e.g., dental technicians, radiologists).
 
-## Business Process Modeling
+### 5. UML Modeling
+
+The system’s structure is modeled using UML diagrams to provide a detailed overview of how users interact with the system and how data flows between components:
+- **Use Case Diagram**: Represents different interactions between users (patients, dentist, suppliers, specialists). It details actions like scheduling appointments, requesting materials, and referring patients to specialists.
+- **Activity Diagram**: Describes the flow of activities, such as the process of treating a patient or handling external referrals.
+- **Class Diagram**: Defines the relationships between different entities within the system, including `Patient`, `Appointment`, `DentalProcedure`, `MaterialOrder`, and `SpecialistReferral`.
+
+### 6. System Implementation
+
+The information system focuses on automating the following processes:
+- **Appointment Scheduling**: Automates the process of registering and tracking patient appointments.
+- **Material Orders**: Keeps track of medical supplies ordered and received, ensuring the clinic has the necessary tools for procedures.
+- **Specialist Collaboration**: Facilitates communication and information exchange between the clinic and external specialists, logging all referrals and received feedback.
+
+## Technologies and Tools Used
+
+This project uses a variety of techniques and tools to analyze and design the system:
+- **BPMN Diagrams** for business process modeling.
+- **UML Diagrams** for detailed system structure modeling, including use case, class, and activity diagrams.
+- **Flowcharts** for visualizing the existing information system and identifying areas for improvement.
+- **Microsoft Visio** for creating BPMN diagrams, UML diagrams, and flowcharts.
+
+
+## Screenshots
+
+### Organizational Structure
+![image](https://github.com/user-attachments/assets/5845ca0e-9f1a-498b-a2d3-fa9bde42b0cf)
+*Figure: Organizational chart illustrating the structure of the dental clinic.*
+
+### Flowchart
+![image](https://github.com/user-attachments/assets/579c4768-3017-4984-8740-03d62910a3ac)
+*Figure: Flowchart illustrating the flow of information and document management in the clinic.*
 
 ### BPMN Diagram
-*[Insert Screenshot 4: BPMN diagram from your document]*
-
-Presents the business process model showing:
-- Patient appointment workflow
-- Treatment process
-- Documentation flow
-- Supply management
-- Specialist referrals
-
-### Process Descriptions
-Details each major process in the dental clinic's operations, including:
-1. Patient appointment scheduling
-2. Supply ordering and management
-3. Specialist referrals
-4. Treatment documentation
-5. Billing and accounting processes
-
-## UML Modeling
+![image](https://github.com/user-attachments/assets/c5ae5da5-660f-41e5-97d4-305c52b0337e)
+*Figure: BPMN diagram illustrating the workflow of processes within the dental clinic.*
 
 ### Use Case Diagram
-*[Insert Screenshot 5: Use case diagram from your document]*
-
-Shows the interactions between system actors and various use cases within the dental clinic information system.
-
-### Activity Diagram
-*[Insert Screenshot 6: Activity diagram from your document]*
-
-Illustrates the workflow of major activities within the system, including patient registration, treatment, and documentation.
+![image](https://github.com/user-attachments/assets/44199776-0448-47a7-a8f6-e9eb351898c1)
+*Figure: Use Case Diagram showing interactions between patients, dentists, and external specialists.*
 
 ### Class Diagram
-*[Insert Screenshot 7: Class diagram from your document]*
+![image](https://github.com/user-attachments/assets/41080a70-a7a4-4be2-92f2-c35589d5caed)
+*Figure: Class Diagram illustrating the relationships between entities such as patients, procedures, and materials.*
 
-Presents the system's structural design, showing:
-- Key entities
-- Relationships between classes
-- Attributes and methods
-- System architecture
+### Activity Diagram
+![image](https://github.com/user-attachments/assets/4660391b-a2a7-45de-8d51-810c5ce46a22)
+*Figure: Activity Diagram showing the flow of activities involved in managing a dental procedure.*
 
-## Implementation Notes
-- Built using [specify technologies]
-- Requires [specify requirements]
-- Setup instructions [provide basic setup steps]
+
+## Future Enhancements
+1. **Online Appointment System**: Automating the patient scheduling process by integrating an online booking platform.
+2. **Personnel Expansion**: Hiring administrative staff to improve workflow efficiency and manage external collaborations.
+3. **Service Expansion**: Adding new services to the clinic’s offering, including more advanced dental treatments and consultations.
+
+---
