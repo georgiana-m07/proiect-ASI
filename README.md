@@ -1,4 +1,4 @@
-# Dental Clinic Information System - ASI Project
+# Dental Clinic Information System - Informational System Analysis Project
 
 This project was developed for the "Informational SYstem Analysis / Analiza sistemelor informaționale" (ASI) course. It focuses on analyzing and designing an information system for tracking dental procedures and managing clinic operations. The project simulates a real-world system to manage patient appointments, dental treatments, materials procurement, and external collaborations with specialists.
 
