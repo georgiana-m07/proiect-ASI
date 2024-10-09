@@ -73,26 +73,32 @@ This project uses a variety of techniques and tools to analyze and design the sy
 
 ### Organizational Structure
 ![image](https://github.com/user-attachments/assets/5845ca0e-9f1a-498b-a2d3-fa9bde42b0cf)
+
 *Figure: Organizational chart illustrating the structure of the dental clinic.*
 
 ### Flowchart
 ![image](https://github.com/user-attachments/assets/579c4768-3017-4984-8740-03d62910a3ac)
+
 *Figure: Flowchart illustrating the flow of information and document management in the clinic.*
 
 ### BPMN Diagram
 ![image](https://github.com/user-attachments/assets/c5ae5da5-660f-41e5-97d4-305c52b0337e)
+
 *Figure: BPMN diagram illustrating the workflow of processes within the dental clinic.*
 
 ### Use Case Diagram
 ![image](https://github.com/user-attachments/assets/44199776-0448-47a7-a8f6-e9eb351898c1)
+
 *Figure: Use Case Diagram showing interactions between patients, dentists, and external specialists.*
 
 ### Class Diagram
 ![image](https://github.com/user-attachments/assets/41080a70-a7a4-4be2-92f2-c35589d5caed)
+
 *Figure: Class Diagram illustrating the relationships between entities such as patients, procedures, and materials.*
 
 ### Activity Diagram
 ![image](https://github.com/user-attachments/assets/4660391b-a2a7-45de-8d51-810c5ce46a22)
+
 *Figure: Activity Diagram showing the flow of activities involved in managing a dental procedure.*
 
 
